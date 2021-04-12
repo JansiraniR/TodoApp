@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Views.TodoItemsListPage"
+             Title="TODO Application">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#172E48">
+            <Label Text="Todo Items List" TextColor="White" FontSize="20" />
+          <ListView x:Name="listView" Margin="20" ItemsSource="{Binding TodoList}" ItemSelected="listView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Margin="20,0,0,0" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Label Text="{Binding Task}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" />
+                        <Label Text="{Binding Status}" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" IsVisible="{Binding Done}" />
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+            <Button Text="Add New Task" Clicked="OnItemAdded" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="#4C6E90"/>
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/bin/Debug/netstandard2.0/TodoApp.deps.json
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/bin/Debug/netstandard2.0/TodoApp.dll
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/bin/Debug/netstandard2.0/ref/TodoApp.dll
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/bin/Debug/netstandard2.0/TodoApp.pdb
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/TodoApp.csprojAssemblyReference.cache
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/Views/TodoItems.xaml.g.cs
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/Views/TodoItemsListPage.xaml.g.cs
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/TodoApp.AssemblyInfoInputs.cache
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/TodoApp.AssemblyInfo.cs
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/TodoApp.dll
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/ref/TodoApp.dll
+/Users/a930138/Desktop/ToDoSample/TodoApp/TodoApp/obj/Debug/netstandard2.0/TodoApp.pdb

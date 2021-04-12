@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoApp.Views.TodoItems" Title="Add New Item">
+    <ContentPage.Content>
+         <StackLayout Margin="20">
+        <Label Text="Tasks" TextColor="Black" FontSize="20"/>
+        <Entry Text="{Binding TodoItem.Task}" TextColor="Black" FontSize="15"/>
+        <Label Text="Notes" TextColor="Black" FontSize="20"/>
+        <Entry Text="{Binding TodoItem.Notes}" TextColor="Black" FontSize="15" />
+             <Grid>
+                 <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="*"/>
+                      <ColumnDefinition Width="*"/>
+                 </Grid.ColumnDefinitions>
+                 
+        <Label Text="Done" TextColor="Black" FontSize="20"/>
+        <Switch IsToggled="{Binding TodoItem.Done}" />
+                 </Grid>
+        <Button Text="Add" HorizontalOptions="Center" Margin="0,50,0,0" Command="{Binding SaveCommand}" />
+        <Button Text="Cancel" Clicked="OnCancelClicked" HorizontalOptions="Center"/>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
